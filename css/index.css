@@ -1,25 +1,36 @@
-body {
-	background-color: #FFA800;
+title {
+	text-align: center;
+	color: #ffa800 ;	
+	border: 3px solid black; 
+	display: inline-block;
+	background-color: #ffffff; 
+	padding: 0.25in;
+	font-size: 150%;
+	margin-top: 20px; 
+	
+	text-shadow: 
+	-1px -1px 0 #000,  
+	1px -1px 0 #000,  
+	-1px 1px 0 #000,  
+	1px 1px 0 #000;
 }
-h1 {
 
-		text-align: center;
-		color: #ffa800 ;	
-        border: 2px solid black; 
-        display: inline-block;
-        background-color: #ffffff; 
-        padding: 0.25in;
-        
-        text-shadow: 
-        -1px -1px 0 #000,  
-        1px -1px 0 #000,  
-        -1px 1px 0 #000,  
-        1px 1px 0 #000;
-  
+body {
+	background-color: #ffffff;
+            margin: 0;
+            height: 35vh; 
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            align-items: center; /* Centers vertically */
+            flex-direction: column; /* To ensure footer and other elements stay below */
+}
+
+
+h1 {
+		text-align: left;
 	}
     
 		h2 {
-			
 			color: black;
 			font-size: 200%;
 		}
@@ -29,12 +40,18 @@ h1 {
 			font-size: 120%;
 			text-align: center;
 }
+
 footer {
 	text-align: center;
 }
-#floatrighttt {
-			float:right;
+
+#floatright {
+			float: right;
+			position: absolute;
+            top: 20px;
+            right: 20px;
 		}
+
 form {
 	text-align: center;
 }
