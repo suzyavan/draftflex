@@ -1,0 +1,40 @@
+body {
+	background-color: #FFA800;
+}
+h1 {
+
+		text-align: center;
+		color: #ffa800 ;	
+        border: 2px solid black; 
+        display: inline-block;
+        background-color: #ffffff; 
+        padding: 0.25in;
+        
+        text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,  
+        -1px 1px 0 #000,  
+        1px 1px 0 #000;
+  
+	}
+    
+		h2 {
+			
+			color: black;
+			font-size: 200%;
+		}
+
+		p {
+			color: black;
+			font-size: 120%;
+			text-align: center;
+}
+footer {
+	text-align: center;
+}
+#floatrighttt {
+			float:right;
+		}
+form {
+	text-align: center;
+}
