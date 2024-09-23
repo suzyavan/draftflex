@@ -1,0 +1,23 @@
+#navlist {
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+}
+   
+#navlist a {
+    float:left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navlist-right {
+    float:right;
+}
+
+#navlist a:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
