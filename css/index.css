@@ -6,7 +6,7 @@ title {
 	background-color: #ffffff; 
 	padding: 0.25in;
 	font-size: 150%;
-	margin-top: 20px; 
+	margin-top: 5px;
 	
 	text-shadow: 
 	-1px -1px 0 #000,  
@@ -41,9 +41,6 @@ h1 {
 			text-align: center;
 }
 
-footer {
-	text-align: center;
-}
 
 #floatright {
 			float: right;
@@ -54,4 +51,24 @@ footer {
 
 form {
 	text-align: center;
+}
+
+footer {
+    text-align: center; /* Center text */
+    padding: 20px 0; /* Optional: Add padding for spacing */
+    color: rgb(0, 0, 0); /* Optional: Text color */
+}
+
+/* Social links */
+footer .social-links {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center the icons */
+    margin-top: 10px; /* Optional: Add spacing above icons */
+}
+
+/* Optional: Social icons */
+footer .social-links img.social-icon {
+    width: 24px;  /* Size of icons */
+    height: 24px; /* Size of icons */
+    margin: 0 5px; /* Spacing between icons */
 }
